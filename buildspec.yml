@@ -25,5 +25,5 @@ phases:
       - printf '[{"name":"test-container","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json 
 artifacts:
-    files: imagedefinitions.json1
+    files: imagedefinitions.json
     
